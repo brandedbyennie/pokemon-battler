@@ -12,7 +12,7 @@ attackDamage: the amount of damage a Pokemon can inflict (should be a number)
 move: This is the move the Pokemon does when battling, this should default to "tackle"
 type: A string of their type ("fire","water","grass", or "normal").
 
-###### the types and their respective strengths and weaknesses. 
+### the types and their respective strengths and weaknesses. 
 This is to inform the behaviour of the methods described below for each class.
 
 fire pokemon are strong against grass, and weak against water.
@@ -54,10 +54,10 @@ getPokemon: Takes the name of a Pokemon.
 Will search for the the Pokemon with that name in the belt.
 Use the Pokeball's throw to return that specific Pokemon.
 
-# Battle
+## Battle
 Finally, you will need a way to battle the Pokemon. The battle should take two trainers and the names of the Pokemon they wish to battle.
 
-# Methods
+## Methods
 fight: This should take the Pokemon whose turn it is,
 Attack the defending Pokemon (deducting attacker's attack damage from the defender's hit points)
 End their turn
